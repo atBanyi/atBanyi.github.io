@@ -11,6 +11,18 @@
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
       
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -21,7 +33,7 @@
       <link href="/2023/06/10/typescript/"/>
       <url>/2023/06/10/typescript/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       
@@ -34,7 +46,7 @@
       <link href="/2023/06/10/react/"/>
       <url>/2023/06/10/react/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="react简介"><a href="#react简介" class="headerlink" title="react简介"></a>react简介</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="react简介"><a href="#react简介" class="headerlink" title="react简介"></a>react简介</h2>]]></content>
       
       
       
@@ -47,7 +59,7 @@
       <link href="/2023/06/10/hello-world/"/>
       <url>/2023/06/10/hello-world/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="我的第一个博客搭建学习"><a href="#我的第一个博客搭建学习" class="headerlink" title="我的第一个博客搭建学习"></a>我的第一个博客搭建学习</h3>]]></content>
+        <content type="html"><![CDATA[<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="我的第一个博客搭建学习"><a href="#我的第一个博客搭建学习" class="headerlink" title="我的第一个博客搭建学习"></a>我的第一个博客搭建学习</h3>]]></content>
       
       
       

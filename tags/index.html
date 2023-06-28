@@ -316,24 +316,24 @@
         <div class="brand">
             <div class="title center-align">
                 
-                保持热爱，奔赴山海
+                    保持热爱，奔赴山海
                 
             </div>
 
             <div class="description center-align">
                 
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
+                    <span id="subtitle"></span>
+                    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                    <script>
+                        var typed = new Typed("#subtitle", {
+                            strings: ['从来没有真正的绝境, 只有心灵的迷途', 'Never really desperate, only the lost of the soul'],
+                            startDelay: 300,
+                            typeSpeed: 100,
+                            loop: true,
+                            backSpeed: 50,
+                            showCursor: true
+                        });
+                    </script>
                 
             </div>
         </div>
@@ -341,11 +341,11 @@
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
+    <script>
+        // 每天切换 banner 图.  Switch banner image every day.
+        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    </script>
 
 
     </div>
@@ -363,10 +363,43 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/%E5%89%8D%E7%AB%AF/" title="前端: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="前端" style="background-color: #F9EBEA;">前端
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"前端","weight":1,"link":"/tags/前端/"}], {
+        autoResize: true
+    });
+</script>
 
     
 
@@ -504,6 +537,10 @@
             </script>
             
             <br>
+            
+            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="/href=%22https:/beian.miit.gov.cn" target="_blank">黔ICP备2023004004号-1</a>
+            </span>
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
